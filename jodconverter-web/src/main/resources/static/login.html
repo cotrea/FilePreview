@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="yanting">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Page Validation</title>
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/my-login.css">
+</head>
+
+<body class="my-login-page">
+<section class="h-100">
+    <div class="container h-100">
+        <div class="row justify-content-md-center h-100">
+            <div class="card-wrapper">
+                <div class="brand">
+                    <img src="../static/images/logo-h.jpg" alt="logo">
+                </div>
+                <div class="card fat">
+                    <div class="card-body">
+                        <form action="manage" method="POST" class="my-login-validation" novalidate="">
+                            <!--<div class="form-group">
+                                <label for="username">用户名</label>
+                                <input id="username" type="username" class="form-control" name="username" value="" required autofocus>
+                                <div class="invalid-feedback">
+                                    username is invalid
+                                </div>
+                            </div>-->
+
+                            <div class="form-group">
+                                <label for="password">admin entrance
+                                </label>
+                                <input id="password" type="password" class="form-control" name="password" required data-eye>
+                                <div class="invalid-feedback">
+                                    Validation is required
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="custom-checkbox custom-control">
+                                    <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+                                    <label for="remember" class="custom-control-label">need to remeber ?</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group m-0">
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    Go
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/bootstrap/js/bootstrap.js"></script>
+<script src="../static/js/my-login.js"></script>
+</body>
+</html>
