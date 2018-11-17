@@ -3,12 +3,12 @@
 <html lang="en">
 <head>
     <title>file provide preview services</title>
-    <link rel="stylesheet" href="../static/css/viewer.min.css" />
-    <link rel="stylesheet" href="../static/css/loading.css" />
+    <link rel="stylesheet" href="../fp/static/css/viewer.min.css" />
+    <link rel="stylesheet" href="../fp/static/css/loading.css" />
     <link rel="stylesheet" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../static/bootstrap-table-1.11.1/dist/bootstrap-table.css" />
-    <link rel="stylesheet" href="../static/bootstrap-fileinput/css/fileinput.css" />
-    <link rel="stylesheet" href="../static/bootstrap-fileinput/themes/explorer/theme.css" />
+    <link rel="stylesheet" href="../fp/static/bootstrap-table-1.11.1/dist/bootstrap-table.css" />
+    <link rel="stylesheet" href="../fp/static/bootstrap-fileinput/css/fileinput.css" />
+    <link rel="stylesheet" href="../fp/static/bootstrap-fileinput/themes/explorer/theme.css" />
     <style type="text/css">
     </style>
 </head>
@@ -84,13 +84,13 @@
         </div>
     </div>
 </div>
-<script src="../static/js/jquery-3.0.0.min.js" type="text/javascript"></script>
-<script src="../static/jquery-form/dist/jquery.form.min.js" type="text/javascript"></script>
+<script src="../fp/static/js/jquery-3.0.0.min.js" type="text/javascript"></script>
+<script src="../fp/static/jquery-form/dist/jquery.form.min.js" type="text/javascript"></script>
 <script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../static/bootstrap-fileinput/js/fileinput.min.js"></script>
-<script src="../static/bootstrap-table-1.11.1/dist/bootstrap-table.js"></script>
-<script src="../static/bootstrap-fileinput/js/locales/zh.js"></script>
-<script src="../static/bootstrap-fileinput/themes/explorer/theme.js"></script>
+<script src="../fp/static/bootstrap-fileinput/js/fileinput.min.js"></script>
+<script src="../fp/static/bootstrap-table-1.11.1/dist/bootstrap-table.js"></script>
+<script src="../fp/static/bootstrap-fileinput/js/locales/zh.js"></script>
+<script src="../fp/static/bootstrap-fileinput/themes/explorer/theme.js"></script>
 <script>
     function deleteFile(fileName) {
         $.ajax({
