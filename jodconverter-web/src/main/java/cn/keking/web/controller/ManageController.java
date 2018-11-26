@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 public class ManageController {
     @RequestMapping(value = "manage", method = RequestMethod.POST)
     public String goManage(@RequestParam(value="password") String tunnel){
-        String validation = "ebs";
+        String validation = "eim";
         String validations = "cl";
         if(validation.equals(tunnel)||validations.equals(tunnel)) {
             return "manage";
